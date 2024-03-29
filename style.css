@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  background-color: #081b31;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
+.choices{
+    /* width:80%; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 3rem;
+}
+.choice{
+    height:165px;
+    width:165px;
+    border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover{
+    background-color: #081b31;
+    cursor: pointer;
+}
+img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.score-board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top:3rem;
+    gap:5rem;
+}
+
+#user-score, #comp-score
+{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top:4rem;
+}
+#msg{
+   
+ background-color: #081b31;
+ color: white;
+ font-size: 2rem;
+ display: inline;
+ padding: 1rem;
+ border-radius: 1rem;
+}
+#credit{
+    margin-top: 2rem;
+    color:rgb(143, 143, 143);
+}
+#credit span{
+    color:rgb(249, 134, 157);
+}
+
+
+@media(max-width:768px)
+{
+
+.choices{
+    gap:2rem;
+    }
+    .choice{
+        height:140px;
+        width:140px;
+    }
+    img{
+        height:130px;
+        width:130px;}
+    }
+    .score-board{
+        
+        font-size: 1.5rem;
+    
+    }
+    
+    #user-score, #comp-score
+    {
+    
+        font-size: 3rem;
+    }
+    .msg-container{
+        margin-top:4rem;
+    }
+    #msg{
+    
+     font-size: 3rem;
+     padding: 1rem;
+     
+    }
+    #credit{
+        margin-top:4rem;
+    }
+
+
+@media(max-width:512px)
+{
+.choices{
+gap:1rem;
+}
+.choice{
+    height:100px;
+    width:100px;
+}
+img{
+    height:90px;
+    width:90px;}
+}
+.score-board{
+    
+    font-size: 1.5rem;
+
+}
+
+#user-score, #comp-score
+{
+
+    font-size: 3.5rem;
+}
+.msg-container{
+    margin-top:4.5rem;
+}
+#msg{
+
+ font-size: 1.3rem;
+ padding: 1rem;
+ 
+}
+#credit{
+    margin-top:4rem;
+}
